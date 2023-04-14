@@ -1,0 +1,468 @@
+body{
+    background-color: white; 
+    color: rgb(90, 90, 90);
+    margin: 0px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: 'Montserrat';
+    font-size: large;
+
+}
+
+.nav-bar{
+    border: 1px rgb(255, 255, 255) solid;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 5px;
+    
+}    
+#nav-home{
+    list-style: none;
+    display: block;
+    width: 160px;
+    height: 25px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    float: left;
+    position: absolute;
+    left: 0px;
+
+}
+#nav-home:hover{
+    background-color: rgb(202, 202, 202);
+}
+#nav-about{
+    list-style: none;
+    display: block;
+    width: 105px;
+    height: 25px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    float: left;
+    position: absolute;
+    left: 115px;
+
+}
+#nav-about:hover{
+    background-color: rgb(202, 202, 202);
+}
+#nav-portfolio{
+    list-style: none;
+    display: block;
+    width: 105px;
+    height: 25px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    float: left;
+    position: absolute;
+    left: 230px;
+
+}
+#nav-portfolio:hover{
+    background-color: rgb(202, 202, 202);
+}
+#nav-contact{
+    list-style: none;
+    display: block;
+    width: 105px;
+    height: 25px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    float: left;
+    position: absolute;
+    left: 345px;
+
+}
+#nav-contact:hover{
+    background-color: rgb(202, 202, 202);
+}
+
+h2{
+    text-align: center;
+}
+.logo-pic{
+    opacity: 0.55;
+    position: absolute;
+    top: 50px;
+    left: -0.8px;
+    background-image: image("beach.jpg");
+    z-index: 0;
+}
+
+.logo{
+    clear: left;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 50px;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    padding: 1px;
+    width: 350px;
+    z-index: 1;
+
+}
+.aboutme{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 500px;
+}
+.ilove{
+    text-align: center;
+}
+p{
+    margin-left: 1%;
+    font-size: 18px;
+    text-justify: auto;
+}
+.profile-pic{
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-right: 35px;
+    float: left;
+    opacity: 0.65;
+}
+
+.profile-pic:hover{
+    opacity: 1;
+    transition: 0.05s;
+}
+
+
+.myname{
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.wrapper{
+    margin-top: 10px;
+    position: relative;
+    top: -35.5px;
+}
+.goodat{
+    clear: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.lists li{
+    margin-top: 40px;
+    margin-bottom: 17px;
+}
+.table1{
+    border: 1px solid;
+    border-color: rgb(218, 218, 218);
+    padding: 5px;
+    background: linear-gradient(to right, rgb(75, 75, 75)85%, rgb(241, 241, 241) 10%, rgb(241, 241, 241));
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+}
+.table2{
+    border: 1px solid;
+    border-color: rgb(218, 218, 218);
+    padding: 5px;
+    background: linear-gradient(to right, rgb(75, 75, 75)85%, rgb(241, 241, 241) 10%, rgb(241, 241, 241));
+    background-color: rgb(75, 75, 75);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.table3{
+    border: 1px solid;
+    border-color: rgb(218, 218, 218);
+    padding: 5px;
+    background: linear-gradient(to right, rgb(75, 75, 75)85%, rgb(241, 241, 241) 10%, rgb(241, 241, 241));
+    background-color: rgb(75, 75, 75);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.historytable{
+    border: 1px solid;
+    padding: 20px;
+    padding-left: 300px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 112.5%;
+    height: 80px;
+    position: relative;
+    left: -241px;
+}
+.historytable tr th{
+    text-align: center;
+    margin-right: 50px;
+}
+.historytable tr td{
+    margin-right: 500px;
+}
+
+.portfolio-pic{
+    position: relative;
+    left: -241px;
+    opacity: 0.85;
+    margin-bottom: 90px;
+    margin-top: -11px;
+}
+.work-pics{
+    position: relative;
+    left: 20px;
+}
+.box2{
+    margin-left: 20px;
+    float: left;
+    margin-top: 50px;
+}
+.box2:hover{
+    opacity: 0.5;
+}
+
+.box3{
+    margin-left: 20px;
+    float: left;
+    margin-top: 50px;
+}
+.box3:hover{
+    opacity: 0.5;
+}
+.box4{
+    margin-left: 20px;
+    float: left;
+    margin-top: 50px;
+}
+.box4:hover{
+    opacity: 0.5;
+}
+.box5{
+    margin-left: 20px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.box5:hover{
+    opacity: 0.5;
+}
+.box6{
+    margin-left: 20px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.box6:hover{
+    opacity: 0.5;
+}
+.box7{
+    margin-left: 20px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.box7:hover{
+    opacity: 0.5;
+}
+
+.mywork p strong{
+    margin-left: 43.3%;
+    text-align: center;
+    margin-top: 70px;
+    font-size: larger;
+}
+.myworkParagraph p{
+    text-align: center;
+    clear: both;
+    position: relative;
+    font-size: medium;
+}
+.loadmore{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    clear: left;
+    padding: 15px;
+
+}
+
+.contact-pic{
+    position: relative;
+    left: -241px;
+    opacity: 0.8;
+}
+
+/*.box2{
+    list-style-type: none;
+    text-align: center;
+    border: 1px darkgrey solid;
+    width: 150px;
+    height: 150px;
+    margin-left: 130px;
+    float: left;
+    position: static;
+ 
+}
+.box3{
+    list-style-type: none;
+    text-align: center;
+    border: 1px darkgrey solid;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    float: left;
+    position: static;
+}
+.box4{
+    list-style-type: none;
+    text-align: center;
+    border: 1px darkgrey solid;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    float: left;
+    position: static;
+}
+.box5{
+    list-style-type: none;
+    text-align: center;
+    border: 1px darkgrey solid;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    float: left;
+    position: static;
+}
+*/
+
+.whereiwork{
+    text-align: center;
+    margin-top: 60px;
+    
+}
+.country-pic{
+    opacity: 0.87;
+    float: left;
+}
+.love{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.note{
+    text-align: center;
+    position: relative;
+    margin-bottom: 35px;
+    margin-top: 125px;
+}
+
+.contact-info li{
+    position: relative;
+    top: 12px;
+    margin-left: 35%;
+    margin-bottom: 40px;
+}
+
+
+.comment-form p{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14%;
+    margin-top: 13px;
+
+}
+.comment-form .form-name input{
+    position: relative;
+    border-radius: 3px;
+    border-width: 0.1px;
+    height: 40px;
+    width: 200px;
+    padding-left: 12px;
+    margin-left: 27%;
+    margin-bottom: 5px;
+    border-color: aqua;
+    float: left;
+}
+.comment-form .form-email input{
+    position: relative;
+    border-radius: 3px;
+    border-width: 0.1px;
+    height: 40px;
+    width: 200px;
+    padding-left: 12px;
+    margin-left: 2%;
+    margin-bottom: 5px;
+    border-color: aqua;
+    
+}
+.comment-form .form-message input{
+    position: relative;
+    border-radius: 3px;
+    border-width: 0.1px;
+    height: 40px;
+    width: 437px;
+    padding-left: 12px;
+    margin-left: 27%;
+    margin-bottom: 40px;
+    margin-top: 2%;
+    border-color: aqua;
+}
+
+
+.comment-form .form input:hover{
+    border-color: red;
+}
+.message-btn{
+    position: relative;
+    background-color: rgb(38, 106, 133);
+    color: white;
+    border-width: 0px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 75%;
+    margin-top: 20px;
+}
+.message-btn:hover{
+    background: linear-gradient(rgb(54, 142, 177), rgb(52, 183, 235));
+}
+
+.top{
+    text-align: center;
+    width: 100px;
+    height: 45px;;
+    margin-top: 65px;
+    margin-bottom: 10px;
+    margin-left: 46%;
+    padding: 10px;
+    font-size: medium;
+    color: rgb(117, 117, 117);
+    
+}
+.footer-content{
+    border: 1px grey solid;
+    width: 100%;
+    background-color: rgb(75, 75, 75);
+    position: absolute;
+    left: 0px;
+    margin-top: 270px;
+    
+
+}
+.personal-info{
+    margin-top: 50px;
+    padding-left: 40%;
+    color: white;
+}
