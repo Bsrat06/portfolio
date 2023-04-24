@@ -85,9 +85,9 @@ body p{
     text-decoration: none;
     color: black;
 }
-    #nav-portfolio a:hover{
-        /*background-color: rgb(202, 202, 202);*/
-    color: rgba(0, 75, 75, 0.616);
+#nav-portfolio a:hover{
+    /*background-color: rgb(202, 202, 202);*/
+color: rgba(0, 75, 75, 0.616);
 }
 #nav-contact{
     list-style: none;
@@ -115,7 +115,7 @@ body p{
 h2{
     text-align: center;
 }
-.logo-pic{
+#logo-pic{
     opacity: 0.55;
     position: absolute;
     top: 50px;
@@ -481,6 +481,7 @@ p{
 }
 .top a{
     text-decoration: none;
+    color: black;
 }
 .top:hover{
     color: rgb(32, 32, 32);
