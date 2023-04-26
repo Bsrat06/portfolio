@@ -1,5 +1,5 @@
 body{
-    background-color: white; 
+    background-color: white;
     color: rgb(90, 90, 90);
     margin: 0px;
     padding-left: 200px;
@@ -89,7 +89,7 @@ body p{
     /*background-color: rgb(202, 202, 202);*/
 color: rgba(0, 75, 75, 0.616);
 }
-#nav-contact{
+#nav-services{
     list-style: none;
     display: block;
     width: 105px;
@@ -100,6 +100,28 @@ color: rgba(0, 75, 75, 0.616);
     float: left;
     position: absolute;
     left: 345px;
+}
+
+.nav-bar #nav-services a{
+    text-decoration: none;
+    color: black;
+}
+#nav-services a:hover{
+    /*background-color: rgb(202, 202, 202);*/
+color: rgba(0, 75, 75, 0.616);
+}
+
+#nav-contact{
+    list-style: none;
+    display: block;
+    width: 105px;
+    height: 25px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    float: left;
+    position: absolute;
+    left: 460px;
     
 }
 
@@ -175,8 +197,10 @@ p{
 }
 .goodat{
     clear: left;
+    position: relative;
+    top: 80px;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 120px;
     text-align: center;
 }
 .lists li{
@@ -309,10 +333,73 @@ p{
     text-align: center;
     border-color: rgb(78, 78, 78);
     margin-top: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 60px;
     clear: left;
     padding: 15px;
 
+}
+#services-pic{
+    position: relative;
+    left: -241px;
+    opacity: 0.8;
+    filter: brightness(40%) blur(1px);
+}
+.services-tag{
+    text-align: center;
+    font-size: 47px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -250px;
+}
+.my-services{
+    margin-left: 43.3%;
+    margin-top: 70px;
+    font-size: larger;
+}
+
+.background{
+    background-color: rgba(214, 214, 214, 0.548);
+    width: 270px;
+    height:300px;
+    border-radius: 15px;
+}
+.background-1{
+    position: relative;
+    left: 0px;
+    top: -250px;
+}
+.background-2{
+    position: relative;
+    left: 340px;
+    top: -568px;
+}
+.background-3{
+    position: relative;
+    left: 680px;
+    top: -887px;
+}
+.services-list{
+    margin-bottom: -600px;
+}
+
+.services-list .graphic-design{
+    text-align: center;
+    padding-top: 100px;
+    font-size: large;
+    font-weight: bolder;
+}
+.services-list .web-design{
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+    font-size: large;
+    font-weight: bolder;
+}
+.services-list .backend-development{
+    text-align: center;
+    padding-top: 100px;
+    font-size: large;
+    font-weight: bolder;
 }
 
 #contact-pic{
@@ -320,7 +407,7 @@ p{
     left: -241px;
     opacity: 0.8;
     filter: blur(3px);
-    filter: brightness(50%)
+    filter: brightness(50%);
 }
 .contact-tag{
     text-align: center;
@@ -329,50 +416,6 @@ p{
     position: relative;
     top: -250px;
 }
-
-
-/*.box2{
-    list-style-type: none;
-    text-align: center;
-    border: 1px darkgrey solid;
-    width: 150px;
-    height: 150px;
-    margin-left: 130px;
-    float: left;
-    position: static;
- 
-}
-.box3{
-    list-style-type: none;
-    text-align: center;
-    border: 1px darkgrey solid;
-    width: 150px;
-    height: 150px;
-    margin-left: 20px;
-    float: left;
-    position: static;
-}
-.box4{
-    list-style-type: none;
-    text-align: center;
-    border: 1px darkgrey solid;
-    width: 150px;
-    height: 150px;
-    margin-left: 20px;
-    float: left;
-    position: static;
-}
-.box5{
-    list-style-type: none;
-    text-align: center;
-    border: 1px darkgrey solid;
-    width: 150px;
-    height: 150px;
-    margin-left: 20px;
-    float: left;
-    position: static;
-}
-*/
 
 .whereiwork strong{
     margin-left: 41%;
@@ -384,6 +427,7 @@ p{
 .country-pic{
     opacity: 0.87;
     float: left;
+    filter: grayscale(0.7);
 }
 .love{
     text-align: center;
