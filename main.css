@@ -364,7 +364,7 @@ p{
     height: 110%;
     border-radius: 15px;
     position: relative;
-    top: -13px;
+    top: 25px;
     left: -13px;
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.178);
@@ -419,9 +419,13 @@ p{
 .my-services{
     margin-left: 43.3%;
     margin-top: 70px;
+    margin-bottom: -20px;
     font-size: larger;
     position: relative;
     top: 250px;
+}
+.my-services-body{
+    margin-bottom: 80px;
 }
 
 #contact-pic{
